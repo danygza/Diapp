@@ -36,17 +36,11 @@ export const Navbar = () => {
                     <a class="nav-link" href="/">Inicio <span class="sr-only"></span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/donaciones">Citas Medicas</a>
+                    <a class="nav-link" href="/donaciones">Citas Médicas</a>
                   </li>
-                  {/* <li class="nav-item">
-                    <a class="nav-link" href="#">Equipos</a>
-                  </li> */}
                   <li class="nav-item">
                     <a class="nav-link" href="/puntaje">Citas Nutriologos</a>
                   </li>
-                  {/* <li class="nav-item">
-                    <a class="nav-link" href="/puntaje2">Puntaje2</a>
-                  </li> */}
                   <li class="nav-item">
                   <a class="nav-link" href="/registro-alumno">Nutrición</a>
                   </li>
@@ -54,7 +48,7 @@ export const Navbar = () => {
                   <a class="nav-link" href="/registro-alumno">Deporte</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/registro-alumno">Contactanos</a>
+                  <a class="nav-link" href="/registro-alumno">Contáctanos</a>
                   </li>
                   <div className="button1">
                     <Button onClick={handleLogout}>
