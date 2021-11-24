@@ -27,6 +27,7 @@ export const Navbar = () => {
             <div class="container">
               <a class="navbar-brand" href="#"><img className="logo"src={logo} alt="logo..." /></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars fa-1x"></i>
                 <span class="navbar-toggler-icon"></span>
               </button>
   
